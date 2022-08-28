@@ -1,20 +1,35 @@
-.nav{
+body{
+    margin: 0ch;
+    background-color: black;
+    color: aliceblue;
+}
+#logo{
+    height:80px ;
+    width: 80px;
+}
+.navigation {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    background-color: antiquewhite;
-    justify-i: flex-end;
-    height: 100px;
+    height: 130px;
+    justify-content: space-around;
+    background-color: grey;
+    margin: 5px;
+  } 
+  .logoimage{
+    position: relative;
+    right: 5%;
+}
 
+.but{
+    position: relative;
+    top: 15px;
+    border: 0ch;
+    background-color: rgb(162, 159, 159);
+    height: 50px;
+    width: 130px;
+    transition-duration: 1.8ms;
 }
-#logoimg{
-    height:50px ;
-    width: 50px;
-    background-color: red;
-}
-.logonav{
-    justify-self:left;
-}
-.navfiller{
-    width:200px;
-    background-color: green;
+.but:hover{
+    background-color: aliceblue;
 }
