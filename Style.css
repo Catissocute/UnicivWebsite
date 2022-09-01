@@ -4,14 +4,14 @@ body{
     color: aliceblue;
 }
 #logo{
-    height:80px ;
-    width: 80px;
+    height:90px ;
+    width: 90px;
 }
 .navigation {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 130px;
+    height: 100px;
     justify-content: space-around;
     background-color: grey;
     margin: 5px;
@@ -22,14 +22,34 @@ body{
 }
 
 .but{
+    font-size: 20px;
     position: relative;
     top: 15px;
     border: 0ch;
-    background-color: rgb(162, 159, 159);
+    background-color:rgb(127, 125, 125);
     height: 50px;
     width: 130px;
     transition-duration: 1.8ms;
 }
 .but:hover{
     background-color: aliceblue;
+}
+#para{
+    font-size: 20px;
+    display: flex;
+    width: 53%;
+}
+#middocbutton{
+    background-color: rgb(163, 139, 139);
+    color: aliceblue;
+    height: 40px;
+    width: 80px;
+    transition-duration: 1.8ms;
+}
+.actualbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
